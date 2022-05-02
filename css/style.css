@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Nunito&family=Ubuntu:wght@300;400&display=swap');
+
+body{
+	font-family: "Nunito";
+	margin: 0;
+}
+
+.header{
+	background-image: url(/images/header-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 600px;
+	padding: 2%;
+	overflow: hidden;
+}
+
+.half-width{
+	width: 30%;
+	margin: 5%;
+	float: left;
+}
+.half-width h2{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: 'Nunito';
+}
+.half-width:first-child{
+	margin-left: 15%;
+}
+.half-width img{
+	width: 100%;
+}
+.header-part h3{
+	margin-top: 2%;
+	font-size: 40px;
+	color: #d13d7e;
+	font-family: 'Fira Sans', sans-serif;;
+}
+
+.header-part p{
+	font-size: 17px;
+	margin: 3% 0;
+	font-family: 'Nunito';
+	color: grey;
+}
+
+.link-button{
+	margin-top: 10%;
+}
+
+.anchor-link{
+	padding: 10px 20px;
+	background-image: linear-gradient(60deg, #d13d7e , rgb(216, 133, 84));
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: 'Fira Sans';
+	border-radius: 5%;
+}
+
+.highlight{
+	color: black;
+	font-size: 30px;
+	text-transform: capitalize;
+	font-family: 'Nunito', sans-serif;
+}
+
+.biography .half-width p{
+	font-size: 17px;
+	margin: 3% 0;
+	font-family: 'Nunito';
+	color: grey;
+}
+
+
+.biography{
+	padding-top: 2%;
+	background-image: url(/images/biography-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+
+.work-area{
+	background-image: url(/images/latest-work-bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 100%;
+	margin-top: 3%;
+	height: 500px;
+}
+
+.work-area h2{
+	font-family: "Nunito";
+	text-align: center;
+	font-size: 40px;
+}
+
+.work-area .works{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.works img{
+	width: 30%;
+	margin: 1%;
+}
+
+.footer-area{
+	margin-top: 5%;
+	height: 600px;
+	background-image: url(/images/footer-bg.png);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+.client-says{
+	text-align: center;
+}
+
+.client-says h1{
+	font-family: "Nunito";
+	font-size: 35px;
+	margin-bottom: 2%;
+}
+
+.client-says h2{
+	font-family: "Nunito";
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0%;
+}
+.client-says h3{
+	font-size: 12px;
+	text-transform: capitalize;
+	font-weight: 100;
+	margin-bottom: 2%;
+}
+
+.client-says p{
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 2%;
+}
+
+.contact{
+	margin: 5% auto;
+	height: 100px;
+	width: 400px;
+	background-image: linear-gradient(60deg, #bd3484 , tomato);
+	color: aliceblue;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.contact p{
+	margin-top: 10px;
+	padding-top: 4%;
+}
+.contact h2{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.footer-credit{
+	margin-top: 15%;
+	text-align: center;
+}
